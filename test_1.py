@@ -18,3 +18,23 @@ Otherwise options 1 or 2 will output depending on which option offers a greater 
 
 
 """
+
+
+"""
+#option 1
+option1 = 100 * 10
+
+#option 2
+option2 = 0
+temp = 1  #this will act as a placeholder
+
+for loop 10 times
+    temp will be x2 for each increment of i
+    add total amount to option2
+
+if options 1 and 2 are equal, print "Option 1 and 2 are equal"
+else if option1 > option2, print "Option 1 is the better option"
+else "Option 2 is the better option"
+
+"""
+
