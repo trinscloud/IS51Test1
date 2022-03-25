@@ -38,3 +38,22 @@ else "Option 2 is the better option"
 
 """
 
+#option1
+option1 = 100 * 10
+
+#option2
+option2 = 0
+temp = 1  #placeholder
+for i in range(1, 10):
+    temp *= 2
+    option2 += temp
+
+print(f"Option 1 : {option1}")
+print(f"Option 2: {option2}")
+
+if option1 == option2:
+    print("Options 1 & 2 are equivalent")
+elif option1 > option2:
+    print("Option 1 has a greater return rate")
+else:
+    print("Option 2 has a greater return rate")
