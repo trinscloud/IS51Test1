@@ -52,8 +52,8 @@ print(f"Option 1 : {option1}")
 print(f"Option 2: {option2}")
 
 if option1 == option2:
-    print("Options 1 & 2 are equivalent")
+    print("Option 1 and Option 2 pays the same")
 elif option1 > option2:
-    print("Option 1 has a greater return rate")
+    print("Option 1 is better")
 else:
-    print("Option 2 has a greater return rate")
+    print("Option 2 is better")
